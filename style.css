@@ -258,9 +258,12 @@ section li {
   font-size:small;
   padding:5px;
   padding-right:50px;
-
-  
 }
+
+section li a:hover {
+  text-decoration:underline;
+}
+
 table {
   clear:both;
   font-size:small;
