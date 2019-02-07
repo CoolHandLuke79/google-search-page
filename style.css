@@ -1,0 +1,287 @@
+/*========================================
+  RESET
+  ========================================
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-family:  arial,sans-serif;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.right {
+  float: right;
+}
+
+nav .menu, section {
+  width: 625px;
+  margin-left: 150px;
+}
+
+.menu li, li a {
+  display: inline;
+  text-decoration: none;
+  color: #808080;
+  padding: 0px 10px;
+}
+
+.menu li a:hover {
+  color: #000000;
+}
+
+nav {
+  clear:both;
+  border-bottom:1px solid #DCDCDC;
+  padding-bottom:15px;
+  margin-bottom:15px;
+}
+
+.small {
+  font-size: .75em;
+  color: #808080;
+}
+
+section {
+  margin-bottom:20px;
+}
+
+header {
+  padding:20px;
+}
+
+header img {
+  margin-right:30px;
+}
+
+.left {
+  float:left;
+ }
+
+input[type=text] {
+  width: 615px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid #D3D3D3;
+  background-image: url('http://www.thecanadiangame.com/odinproject/images/icon-search.jpg');
+  background-position: 520px 5px; 
+  background-repeat: no-repeat;
+  padding-left:15px;
+  
+}
+input[type=text]:hover{
+  box-shadow:  0 3px 10px 0 rgba(0, 0, 0, 0.25);
+}
+
+.active {
+  color:#1A73E8;
+  font-weight: 700;
+  padding-bottom:12px;
+  border-bottom: 3px solid;
+}
+
+.apps {
+ background-position: -132px -38px;
+}
+
+.icon, .user {
+  display:inline-block;
+}
+
+.icon {
+ background-image: url('http://www.thecanadiangame.com/odinproject/images/google-icons.png');
+ height: 30px;
+ width: 30px;
+ cursor: pointer;
+ background-size: 528px 68px;
+ opacity:.5;
+}
+
+
+.icon:hover {
+  opacity: 1;
+  
+ }
+
+section {
+  color:#666;
+}
+
+section a {
+  color:#1A0DAB;
+  font-weight: bold;
+  display:block;
+}
+
+section a:hover {
+  cursor:pointer;
+}
+
+section span  {
+  color:green;
+  font-weight: 500;
+  font-size: small;
+  
+}
+
+
+h4:hover {
+  text-decoration:underline;
+}
+
+
+section p{
+  font-size: small;
+}
+
+footer p {
+  margin: 0;
+  background-color:#f2f2f2;
+  border-top: solid #D3D3D3;
+  border-width: 1px 0px;
+  padding: 10px 20px;
+  font-size:16px;
+  color: #000;
+  opacity: 0.75;
+  font-size:small;
+  padding-left:150px;
+}
+
+footer a {
+  text-decoration:none;
+  color: black;
+  opacity:.75;
+}
+
+footer a:hover {
+  opacity:1;
+  
+}
+
+
+.links a, .country{
+  padding-right:30px;
+}
+
+
+table {
+  border-spacing:2px;
+}
+
+
+td {
+  vertical-align:bottom;
+  text-align:center;
+  background-image: url('http://www.thecanadiangame.com/odinproject/images/logo-search-result.png');
+  height:53px;
+  background-repeat:no-repeat;
+}
+
+.o {
+  width:20px;
+  background-position: -74px 0px;
+}
+
+.o_active {
+  width:20px;
+  background-position: -54px 0px;
+}
+
+.G{
+  background-position: -24px 0px;
+  width: 28px;
+}
+
+.gle{
+  background-position: -96px 0px;
+  width: 130px;
+}
+
+h3 {
+  font-weight:bold;
+  color: #000;
+  opacity: .7;
+  margin-bottom:15px;
+}
+
+section li {
+  font-size:small;
+  padding:5px;
+  padding-right:50px;
+
+  
+}
+table {
+  clear:both;
+  font-size:small;
+  font-weight:200;
+  color:#1A73E8;
+  margin: 50px auto;
+  
+}
+
+table a {
+  display: block;
+  height:inherit;
+  padding-top:40px;
+  color: inherit;
+  font-weight: inherit;
+  text-decoration:none;
+  
+}
+
+table a:hover {
+  text-decoration:underline;
+}
+
+
